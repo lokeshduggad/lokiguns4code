@@ -22,6 +22,10 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+	 <!-- ROLLOVER - Share --> 
+	   <link href="css/rollovershare.css" rel="stylesheet">
+	   <!-- ROLLOVER - Share --> 
+	   
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -32,6 +36,35 @@
 </head>
 
 <body id="page-top" class="index">
+
+<figure class="rollover share" style="background-color:lightblue;    width: 100%;
+    height: 100%;">
+<a " href="http://studiokraftwerk.com" target="_blank">
+<img src="/awards/sites_of_the_day/2016/06/awwwards-sotd-Studio-Kraftwerk-1.jpg" alt="">
+
+</a>
+<div class="box-share">
+
+ <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i style="margin-top: 12px" class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i style="margin-top: 12px" class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i style="margin-top: 12px" class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i style="margin-top: 12px" class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i style="margin-top: 12px" class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+</div>
+
+</figure>
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -53,6 +86,9 @@
                     <li class="page-scroll">
                         <a href="#portfolio">Portfolio</a>
                     </li>
+					 <li class="page-scroll">
+                        <a href="#education">Education</a>
+                    </li>
                     <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
@@ -71,7 +107,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+				<figure class="rollover share">
                     <img class="img-responsive" src="img/profile.png" alt="">
+					<div class="box-share">
+
+	<ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i style="margin-top: 12px" class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i style="margin-top: 12px" class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i style="margin-top: 12px" class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i style="margin-top: 12px" class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i style="margin-top: 12px" class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+</div>
+</figure>
                     <div class="intro-text">
                         <span class="name">Lokesh Duggad</span>
                         <hr class="star-light">
@@ -99,7 +157,9 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
+					
                         <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+					
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -194,9 +254,9 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+                 <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                           <!--    <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
                                 <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
                                 <p class="help-block text-danger"></p>
@@ -228,11 +288,20 @@
                         <div class="row">
                             <div class="form-group col-xs-12">
                                 <button type="submit" class="btn btn-success btn-lg">Send</button>
-                            </div>
+                            </div>-->
                         </div>
                     </form>
                 </div>
             </div>
+			
+			<script type="text/javascript" 
+src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<div style="overflow:hidden;height:500px;width:600px;">
+<div id="gmap_canvas" style="height:500px;width:600px;">
+<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+<a class="google-map-code" href="http://www.pblack.de" id="get-map-data">ali karababa</a></div></div>
+<script type="text/javascript"> 
+function init_map(){var myOptions = {zoom:20,center:new google.maps.LatLng(19.179178333327037,72.97300995267449),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.179178333327037, 72.97300995267449)});infowindow = new google.maps.InfoWindow({content:"<b>Sharada Bhavan</b><br/>Kopri colony, Thane East<br/>400603 Thane" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
         </div>
     </section>
 
@@ -266,10 +335,10 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-col col-md-4">
+                   <!-- <div class="footer-col col-md-4">
                         <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                    </div>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="">Start Bootstrap</a>.</p>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -277,7 +346,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
+                        Copyright &copy; Lokesh Duggad 2016
                     </div>
                 </div>
             </div>
@@ -514,6 +583,16 @@
             </div>
         </div>
     </div>
+
+	
+	
+	
+	
+	
+	
+	
+	
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
